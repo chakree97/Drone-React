@@ -1,0 +1,120 @@
+.container{
+    position: relative;
+}
+
+.home{
+    width: 100vw;
+}
+
+.header{
+    color: #F9830D;
+}
+
+
+@media only screen and (min-width: 725px) {
+    .content{
+        width: 100%;
+        height: 80%;
+        border-radius: 20px;
+        padding: 80px;
+    }
+
+    .img{
+        width: 50%;
+    }
+    .img-drone{
+        width: 100%;
+        max-width: 500px;
+        max-height: 400px;
+    }
+    .viewer{
+        width: 50%;
+        height: 100px;
+        border-radius: 20px;
+        position: absolute;
+        left: 25%;
+        bottom: -75px;
+    }
+    
+}
+
+@media only screen and (max-width:725px) and (min-width: 576px) {
+    .content{
+        width: 100%;
+        height: 40%;
+        border-radius: 20px;
+        padding: 40px;
+    }
+    .img{
+        width: 50%;
+    }
+    .img-drone{
+        width: 100%;
+        max-width: 500px;
+        max-height: 400px;
+    }
+    .viewer{
+        width: 100%;
+        height: 100px;
+        border-radius: 20px;
+        margin-top: 10px;
+        background-color: white;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .content{
+        width: 100%;
+        height: 33%;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .img{
+        display: none;
+    }
+    .img-drone{
+        display: none;
+    }
+    .viewer{
+        width: 100%;
+        height: 100px;
+        border-radius: 20px;
+        margin-top: 10px;
+        background-color: white;
+    }
+}
+
+.info{
+    height: 100%;
+}
+
+.description{
+    color: grey;
+    font-size: 12px;
+}
+
+.btn-buynow{
+    background-color: #F9830D;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.btn-watchdemo{
+    background-color: #FFF;
+    color: #000;
+    border-color: #F9830D;
+    font-size: 12px;
+}
+
+.follow-text{
+    color: #F9830D;
+}
+
+.like-text{
+    color: #0DB5F9;
+}
+
+.sale-text{
+    color: #D90DF9;
+}

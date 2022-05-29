@@ -1,0 +1,35 @@
+@media only screen and (min-width: 725px) {
+    .blogs{
+        margin-top: 100px;
+        padding: 0px 120px;
+    }
+}
+
+@media only screen and (max-width:725px) and (min-width: 576px) {
+    .blogs{
+        margin-top: 60px;
+        padding: 0px 60px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .blogs{
+        margin-top: 30px;
+        padding: 0px 30px;
+    }
+}
+
+.text-orange{
+    color: #F9830D;
+}
+
+.blogs-description{
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+}
+
+.btn-blogs-search{
+    background-color: #F9830D;
+    color: #fff;
+}

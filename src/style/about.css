@@ -1,0 +1,132 @@
+@media only screen and (min-width: 900px) {
+    .about{
+        margin-top: 120px;
+        padding: 0px 120px;
+    }
+    .review{
+        margin-top: 100px;
+    }
+    .logo-user-center{
+        width: 60px;
+        margin: 0 30px;
+    }
+    
+    .logo-user-1{
+        width: 50px;
+        margin: 0 30px;
+    }
+    
+    .logo-user-2{
+        width: 40px;
+        margin: 0 30px;
+    }
+    
+    .logo-user-3{
+        width: 30px;
+        margin: 0 30px;
+    }
+    
+    .review-user{
+        width: 60%;
+    }
+    
+}
+
+@media only screen and (max-width:900px) and (min-width: 576px) {
+    .about{
+        margin-top: 60px;
+        padding: 0px 60px;
+    }
+    .review{
+        margin-top: 60px;
+    }
+    .logo-user-center{
+        width: 50px;
+        margin: 0 20px;
+    }
+    
+    .logo-user-1{
+        width: 40px;
+        margin: 0 20px;
+    }
+    
+    .logo-user-2{
+        width: 30px;
+        margin: 0 20px;
+    }
+    
+    .logo-user-3{
+        width: 20px;
+        margin: 0 20px;
+    }
+    
+    .review-user{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .about{
+        margin-top: 30px;
+        padding: 0px 30px;
+    }
+    .review{
+        margin-top: 30px;
+    }
+    .logo-user-center{
+        width: 40px;
+        margin: 0 8px;
+    }
+    
+    .logo-user-1{
+        width: 30px;
+        margin: 0 8px;
+    }
+    
+    .logo-user-2{
+        width: 25px;
+        margin: 0 8px;
+    }
+    
+    .logo-user-3{
+        width: 20px;
+        margin: 0 8px;
+    }
+    
+    .review-user{
+        width: 90%;
+    }
+}
+
+
+.drone-mission-image{
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.description-about-mission{
+    color: grey;
+    font-size: 12px;
+}
+
+.btn-view-all{
+    background-color: #F9830D;
+    color: #FFF;
+    width: 120px;
+}
+
+.text-orange{
+    color: #F9830D;
+}
+
+.description-review{
+    color: grey;
+    font-size: 8px;
+    text-align: center;
+}
+
+.name-user{
+    font-size: 12px;
+}

@@ -1,0 +1,42 @@
+@media only screen and (max-width: 992px) {
+    .btn-navbar {
+       display: none;
+    }
+
+    .nav{
+        display: flex;
+        align-items: flex-start;
+        flex-flow: column;
+    }
+    .nav-link{
+        padding: 0.8rem 0;
+        color: #000;
+    }
+  }
+
+@media only screen and (min-width: 992px) {
+    .btn-navbar {
+       display: block;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-link{
+        color: #000;
+    }
+  }
+
+.nav-link:hover{
+    color: #F9830D;
+}
+
+.nav-link.active{
+    color: #F9830D;
+}
+
+.btn-navbar{
+    background-color: #F9830D;
+    color: #FFF;
+}

@@ -1,0 +1,49 @@
+@media only screen and (min-width: 725px) {
+    .shop{
+        margin-top: 200px;
+        padding: 0px 120px;
+    }
+    .shop-description{
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width:725px) and (min-width: 576px) {
+    .shop{
+        margin-top: 120px;
+        padding: 0px 60px;
+    }
+    .shop-description{
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .shop{
+        margin-top: 60px;
+        padding: 0px 30px;
+    }
+    .shop-description{
+        margin-top: 30px;
+    }
+}
+
+.description-shop{
+    text-align: center;
+    font-size: 12px;
+    margin: 0.2rem 0;
+    color: grey;
+}
+
+.product{
+    color: #F9830D;
+}
+
+.img-logo{
+    width: 64px;
+    height: 64px;
+}
+
+.product-chart-border{
+    width: 25%;
+}
